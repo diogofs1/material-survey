@@ -89,7 +89,7 @@ export default function Survey({
       if (question.isRequired && answerMap[question.name] === undefined) {
         fqs.push({
           question,
-          text: "This question is required!"
+          text: "Preenchimento obrigatório!"
         })
         continue
       }
