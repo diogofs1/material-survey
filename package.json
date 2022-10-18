@@ -1,10 +1,10 @@
 {
-  "name": "material-survey",
+  "name": "material-survey-pt-br",
   "version": "2.0.0",
   "description": "Material UI Survey Framework",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CollegeAI/material-survey"
+    "url": "git+https://github.com/CollegeAI/material-survey.git"
   },
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "author": "Severin Ibarluzea, CollegeAI Inc.",
-  "license": "ISC",
+  "license": "MIT",
   "sideEffects": false,
   "devDependencies": {
     "@babel/cli": "^7.5.5",
@@ -63,5 +63,18 @@
     "react-dropzone": "^8.0.1",
     "react-select": "^3.0.8",
     "surveyjs-expression-eval": "^1.0.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/CollegeAI/material-survey/issues"
+  },
+  "homepage": "https://github.com/CollegeAI/material-survey#readme",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [
+    "react",
+    "survey",
+    "material-ui",
+    "pt-br"
+  ]
 }
