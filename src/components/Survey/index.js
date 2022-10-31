@@ -155,7 +155,7 @@ export default function Survey({
               onClick={() => setCurrentPage(currentPage - 1)}
             >
               <BackIcon />
-              Prev
+              Anterior
             </Button>
           )}
           <Button
@@ -191,7 +191,7 @@ export default function Survey({
               }}
               disabled={!pageComplete || lastPage}
             >
-              Next
+              Próximo
               <NextIcon />
             </Button>
           )}
